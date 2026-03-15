@@ -23,6 +23,15 @@ Produces the final response.
 | 3    | **Git**                              | Used to clone the workshop repository from GitHub          | [Download Git](https://git-scm.com/downloads)        | ~5 mins             | Verify installation using `git --version`                                 |
 | 4    | **Visual Studio Code (Recommended)** | Lightweight editor for Python development                  | [Download VS Code](https://code.visualstudio.com/)   | ~5 mins             | Install the **Python extension**                                          |
 
+# Verify Installation
+| Tool                        | Verification Command              | Common Problems                    | Troubleshooting                                                            |
+| --------------------------- | --------------------------------- | ---------------------------------- | -------------------------------------------------------------------------- |
+| **Python**                  | `bash\npython --version\n`        | `python` command not found         | Try:<br>`bash\npython3 --version\n`<br>Restart terminal after installation |
+| **Git**                     | `bash\ngit --version\n`           | Git not recognized                 | Restart terminal or reinstall Git                                          |
+| **Ollama**                  | `bash\nollama --version\n`        | Ollama command not found           | Restart terminal after installation                                        |
+| **Ollama Model**            | `bash\nollama pull llama3.2:1b\n` | Model not downloaded               | Ensure Ollama is installed correctly                                       |
+| **Python Path (Mac/Linux)** | `bash\nwhich python\n`            | Python installed but command fails | Ensure Python is added to PATH                                             |
+
 
 ## Example Prompts
 
