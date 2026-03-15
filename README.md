@@ -20,8 +20,8 @@ Produces the final response.
 | ---- | ------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------- | ------------------------------------------------------------------------- |
 | 1    | **Python (3.10+)**                   | Programming language used to build the agent system        | [Download Python](https://www.python.org/downloads/) | ~10 mins            | Install Python **3.10 or above** and ensure **“Add to PATH”** is selected |
 | 2    | **Ollama**                           | Runs local LLM models such as Llama locally on your laptop | [Download Ollama](https://ollama.com/download)       | ~5 mins             |                          |
-| 3    | **Git**                              | Used to clone the workshop repository from GitHub          | [Download Git](https://git-scm.com/downloads)        | ~5 mins             | Verify installation using `git --version`                                 |
-| 4    | **Visual Studio Code (Recommended)** | Lightweight editor for Python development                  | [Download VS Code](https://code.visualstudio.com/)   | ~5 mins             | Install the **Python extension**                                          |
+| 3    | **Git**                              | Used to clone the workshop repository from GitHub          | [Download Git](https://git-scm.com/downloads)        | ~5 mins             |                                 |
+| 4    | **Visual Studio Code (Recommended)** | Lightweight editor for Python development                  | [Download VS Code](https://code.visualstudio.com/)   | ~5 mins             | Install the **Python extension (Recommended)**                                          |
 
 # Verify Installation
 | Tool                        | Verification Command              | Common Problems                    | Troubleshooting                                                            |
