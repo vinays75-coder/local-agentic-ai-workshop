@@ -26,11 +26,11 @@ Produces the final response.
 # Verify Installation
 | Tool                        | Verification Command              | Common Problems                    | Troubleshooting                                                            |
 | --------------------------- | --------------------------------- | ---------------------------------- | -------------------------------------------------------------------------- |
-| **Python**                  | `bash\npython --version\n`        | `python` command not found         | Try:<br>`bash\npython3 --version\n`<br>Restart terminal after installation |
-| **Git**                     | `bash\ngit --version\n`           | Git not recognized                 | Restart terminal or reinstall Git                                          |
-| **Ollama**                  | `bash\nollama --version\n`        | Ollama command not found           | Restart terminal after installation                                        |
-| **Ollama Model**            | `bash\nollama pull llama3.2:1b\n` | Model not downloaded               | Ensure Ollama is installed correctly                                       |
-| **Python Path (Mac/Linux)** | `bash\nwhich python\n`            | Python installed but command fails | Ensure Python is added to PATH                                             |
+| **Python**                  | `python --version`        | `python` command not found         | Try:<br>`python3 --version\n`<br>Restart terminal after installation |
+| **Git**                     | `git --version`           | Git not recognized                 | Restart terminal or reinstall Git                                          |
+| **Ollama**                  | `ollama --version`        | Ollama command not found           | Restart terminal after installation                                        |
+| **Ollama Model**            | `ollama pull llama3.2:1b` | Model not downloaded               | Ensure Ollama is installed correctly                                       |
+| **Python Path (Mac/Linux)** | `which python`            | Python installed but command fails | Ensure Python is added to PATH                                             |
 
 
 ## Example Prompts
