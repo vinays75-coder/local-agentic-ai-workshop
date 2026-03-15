@@ -31,6 +31,17 @@ Produces the final response.
 | **Ollama**                  | `ollama --version`        | Ollama command not found           | Restart terminal after installation                                        |
 | **Ollama Model**            | `ollama pull llama3.2:1b` | Model not downloaded               | Ensure Ollama is installed correctly                                       |
 | **Python Path (Mac/Linux)** | `which python`            | Python installed but command fails | Ensure Python is added to PATH                                             |
+# Steps for Executing the Workshop Content
+| S.No | Command to Execute                                                          | Approx Time | Remarks                                                |
+| ---- | --------------------------------------------------------------------------- | ----------- | ------------------------------------------------------ |
+| 1    | `git clone https://github.com/vinays75-coder/local-agentic-ai-workshop.git` | ~10 sec     | Clone the workshop repository                          |
+| 2    | `cd local-agentic-ai-workshop`                                              | ~2 sec      | Navigate to the project folder                         |
+| 3    | `python -m venv .venv`                                                      | ~10 sec     | Create a Python virtual environment                    |
+| 4a   | **Windows**<br>`\.venv\Scripts\activate`                                    | ~2 sec      | Activate the virtual environment on Windows            |
+| 4b   | **Mac / Linux**<br>`source .venv/bin/activate`                              | ~2 sec      | Activate the virtual environment on Mac or Linux       |
+| 5    | `pip install -r requirements.txt`                                           | ~2–3 mins   | Install required Python libraries                      |
+| 6    | `ollama pull llama3.2:1b`                                                   | ~1–2 mins   | Download the local LLM model required for the workshop |
+| 7    | `streamlit run app.py`                                                      | ~5 sec      | Launch the Streamlit application                       |
 
 
 ## Example Prompts
