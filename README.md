@@ -24,7 +24,7 @@ Produces the final response.
 | 4    | **Visual Studio Code (Recommended)** | Lightweight editor for Python development                  | [Download VS Code](https://code.visualstudio.com/)   | ~5 mins             | Install the **Python extension (Recommended)**                                          |
 
 # Verify Installation
-| Tool                        | Verification Command (Run from Terminmal)              | Common Problems                    | Troubleshooting                                                            |
+| Tool                        | Verification Command (Run from Terminal)              | Common Problems                    | Troubleshooting                                                            |
 | --------------------------- | --------------------------------- | ---------------------------------- | -------------------------------------------------------------------------- |
 | **Python**                  | `python --version`        | `python` command not found         | Try:<br>`python3 --version\n`<br>Restart terminal after installation |
 | **Git**                     | `git --version`           | Git not recognized                 | Restart terminal or reinstall Git                                          |
