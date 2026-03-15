@@ -3,9 +3,8 @@
 This workshop demonstrates how to build a local Agentic AI application using:
 
 - Python
-- Ollama
+- Ollama (For Running and Hosting models locally)
 - Streamlit
-- Local LLM models
 
 The system uses a two-agent architecture:
 
