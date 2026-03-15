@@ -14,6 +14,8 @@ Decides how to solve the task and whether to use tools.
 Executor Agent
 Produces the final response.
 
+# 🔧 Workshop Prerequisites
+
 | S.No | Software / Tool                      | Purpose                                                    | Download Link                                        | Approx Install Time | Notes                                                                     |
 | ---- | ------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------- | ------------------------------------------------------------------------- |
 | 1    | **Python (3.10+)**                   | Programming language used to build the agent system        | [Download Python](https://www.python.org/downloads/) | ~10 mins            | Install Python **3.10 or above** and ensure **“Add to PATH”** is selected |
