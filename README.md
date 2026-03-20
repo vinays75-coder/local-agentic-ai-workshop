@@ -34,7 +34,7 @@ Produces the final response.
 # Steps for Executing the Workshop Content
 | S.No | Command to Execute                                                          | Approx Time | Remarks                                                |
 | ---- | --------------------------------------------------------------------------- | ----------- | ------------------------------------------------------ |
-| 1    | `mkdir workshop` `cd workshop`                                              | ~10 sec     | Create the folder named workshop on your machine       |
+| 1    | `mkdir workshop` `cd workshop`                                              | ~10 sec     | Create the folder named workshop on your machine and navigate to that folder      |
 | 2    | `git clone https://github.com/vinays75-coder/local-agentic-ai-workshop.git` | ~10 sec     | Clone the workshop repository                          |
 | 3    | `cd local-agentic-ai-workshop`                                              | ~2 sec      | Navigate to the project folder                         |
 | 4    | `python -m venv .venv`                                                      | ~10 sec     | Create a Python virtual environment                    |
