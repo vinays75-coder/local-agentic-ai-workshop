@@ -34,14 +34,15 @@ Produces the final response.
 # Steps for Executing the Workshop Content
 | S.No | Command to Execute                                                          | Approx Time | Remarks                                                |
 | ---- | --------------------------------------------------------------------------- | ----------- | ------------------------------------------------------ |
-| 1    | `git clone https://github.com/vinays75-coder/local-agentic-ai-workshop.git` | ~10 sec     | Clone the workshop repository                          |
-| 2    | `cd local-agentic-ai-workshop`                                              | ~2 sec      | Navigate to the project folder                         |
-| 3    | `python -m venv .venv`                                                      | ~10 sec     | Create a Python virtual environment                    |
-| 4a   | **Windows**<br>`\.venv\Scripts\activate`                                    | ~2 sec      | Activate the virtual environment on Windows            |
-| 4b   | **Mac / Linux**<br>`source .venv/bin/activate`                              | ~2 sec      | Activate the virtual environment on Mac or Linux       |
-| 5    | `pip install -r requirements.txt`                                           | ~2–3 mins   | Install required Python libraries                      |
-| 6    | `ollama pull llama3.2:1b`                                                   | ~1–2 mins   | Download the local LLM model required for the workshop |
-| 7    | `streamlit run app.py`                                                      | ~5 sec      | Launch the Streamlit application                       |
+| 1    | `mkdir workshop` `cd workshop`                                              | ~10 sec     | Create the folder named workshop on your machine       |
+| 2    | `git clone https://github.com/vinays75-coder/local-agentic-ai-workshop.git` | ~10 sec     | Clone the workshop repository                          |
+| 3    | `cd local-agentic-ai-workshop`                                              | ~2 sec      | Navigate to the project folder                         |
+| 4    | `python -m venv .venv`                                                      | ~10 sec     | Create a Python virtual environment                    |
+| 5a   | **Windows**<br>`\.venv\Scripts\activate`                                    | ~2 sec      | Activate the virtual environment on Windows            |
+| 5b   | **Mac / Linux**<br>`source .venv/bin/activate`                              | ~2 sec      | Activate the virtual environment on Mac or Linux       |
+| 6    | `pip install -r requirements.txt`                                           | ~2–3 mins   | Install required Python libraries                      |
+| 7    | `ollama pull llama3.2:1b`                                                   | ~1–2 mins   | Download the local LLM model required for the workshop |
+| 8    | `streamlit run app.py`                                                      | ~5 sec      | Launch the Streamlit application                       |
 
 
 ## Example Prompts
